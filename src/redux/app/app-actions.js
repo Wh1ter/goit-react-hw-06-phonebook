@@ -2,6 +2,7 @@ import types from "./app-types";
 import { createAction } from "@reduxjs/toolkit";
 import { uuid } from "uuidv4";
 
+
 const addContact = createAction("app/addContact", (contactData) => {
   return {
     payload: {
